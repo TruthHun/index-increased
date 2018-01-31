@@ -1,8 +1,3 @@
-# 指数增强(股票)
-追踪指数的基础上，以增加超额兽医，跑赢对标指数为目的的策略
-
-## 源码
-```python
 # coding=utf-8
 from __future__ import print_function, absolute_import, unicode_literals
 import numpy as np
@@ -77,8 +72,3 @@ if __name__ == '__main__':
         backtest_initial_cash=10000000,
         backtest_commission_ratio=0.0001,
         backtest_slippage_ratio=0.0001)
-```
-
-## 绩效图
-![绩效图](attach.png)
-
